@@ -1,0 +1,30 @@
+﻿生成启动时间为 2017/7/15 星期六 23:37:05。
+     1>项目“D:\Documents\Austrilia project\Genaration\Genaration\Genaration.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\documents\austrilia project\opencv\build\include\opencv2\core\mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\documents\austrilia project\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\documents\austrilia project\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\documents\austrilia project\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\Austrilia project\Genaration\Debug\Genaration.exe" /INCREMENTAL /NOLOGO opencv_world320.lib opencv_world320d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Documents\Austrilia project\Genaration\Debug\Genaration.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\Austrilia project\Genaration\Debug\Genaration.lib" /MACHINE:X86 Debug\main.obj
+         Debug\tinystr.obj
+         Debug\tinyxml.obj
+         Debug\tinyxmlerror.obj
+         Debug\tinyxmlparser.obj
+     1>main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z)，该符号在函数 "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 "private: char * __thiscall cv::String::allocate(unsigned int)" (?allocate@String@cv@@AAEPADI@Z)，该符号在函数 "public: __thiscall cv::String::String(char const *)" (??0String@cv@@QAE@PBD@Z) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ)，该符号在函数 "public: __thiscall cv::String::~String(void)" (??1String@cv@@QAE@XZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 "public: class cv::Mat & __thiscall cv::Mat::operator=(class cv::Scalar_<double> const &)" (??4Mat@cv@@QAEAAV01@ABV?$Scalar_@N@1@@Z)，该符号在函数 "public: __thiscall cv::Mat::Mat(int,int,int,class cv::Scalar_<double> const &)" (??0Mat@cv@@QAE@HHHABV?$Scalar_@N@1@@Z) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall cv::Mat::create(int,int const *,int)" (?create@Mat@cv@@QAEXHPBHH@Z)，该符号在函数 "public: void __thiscall cv::Mat::create(int,int,int)" (?create@Mat@cv@@QAEXHHH@Z) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ)，该符号在函数 "public: void __thiscall cv::Mat::release(void)" (?release@Mat@cv@@QAEXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall cv::Mat::copySize(class cv::Mat const &)" (?copySize@Mat@cv@@QAEXABV12@@Z)，该符号在函数 "public: class cv::Mat & __thiscall cv::Mat::operator=(class cv::Mat const &)" (??4Mat@cv@@QAEAAV01@ABV01@@Z) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 "bool __cdecl cv::imwrite(class cv::String const &,class cv::_InputArray const &,class std::vector<int,class std::allocator<int> > const &)" (?imwrite@cv@@YA_NABVString@1@ABV_InputArray@1@ABV?$vector@HV?$allocator@H@std@@@std@@@Z)，该符号在函数 _main 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::rectangle(class cv::Mat &,class cv::Rect_<int>,class cv::Scalar_<double> const &,int,int,int)" (?rectangle@cv@@YAXAAVMat@1@V?$Rect_@H@1@ABV?$Scalar_@N@1@HHH@Z)，该符号在函数 _main 中被引用
+     1>D:\Documents\Austrilia project\Genaration\Debug\Genaration.exe : fatal error LNK1120: 9 个无法解析的外部命令
+     1>已完成生成项目“D:\Documents\Austrilia project\Genaration\Genaration\Genaration.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.43
